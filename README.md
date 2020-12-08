@@ -1,5 +1,14 @@
 # Image Classification
 
+This project is based on image classification using ensemble learning using three individual base models - 
+
+Convolutional Neural Network (CNN)
+Long-Short Term Memory (LSTM)
+Multi-Layer Perceptron (MLP)
+
+Softmax is used in neural networks, to map the non-normalized output of a network to a probability distribution over predicted output classes. Hard voting, Soft voting and weighted soft voting techniques are used to classify the image.
+
+
 _**Ensemble Learning**_
 
 Ensemble learning is one of the various prototypes of deep learning which is advantageous in various machine learning applications. Ensemble method can be thought of as a machine learning model that involves a set of various individual models working parallelly on the same dataset to produce a better accuracy result as compared to any of the individual models working alone . This ensemble model comprises of three individual models – Convolutional Neural Network(CNN), Long Short Term Memory networks(LSTM) and Multi-layer Perceptron Network (MLP).. We would be using this powerful tool to categorise images in the Fashion MNIST dataset which comprises of 60,000 training dataset images and 10,000 test images.
